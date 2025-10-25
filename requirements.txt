@@ -1,0 +1,20 @@
+                                                                Necesitas enternder conceptos y practicas mínimas de:
+# Básicos de Python
+numpy               # Manipulación de arrays y cálculos
+pandas              # Manejo de dataframes para datasets
+requests            # Para consumir APIs externas
+
+# NLP y Embeddings
+transformers        # Modelos de lenguaje y embeddings
+sentence-transformers  # Para embeddings ligeros y búsqueda semántica
+faiss-cpu           # Almacenamiento y búsqueda vectorial local
+
+# Frameworks generativos
+langchain           # Orquestación de LLMs y agentes
+llama-index         # RAG y estructuras de información
+openai              # Conexión a APIs de OpenAI (si usan GPT remoto)
+
+# Aplicaciones y demos
+streamlit           # Para construir interfaces web simples
+pyttsx3             # Síntesis de voz local
+Pillow              # Manejo de imágenes (para apps multimodales)

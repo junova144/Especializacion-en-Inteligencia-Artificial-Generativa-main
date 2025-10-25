@@ -1,0 +1,28 @@
+name: curso-ia-generativa
+description: >
+  Entorno de aprendizaje para el curso de IA Generativa.
+  Indica todo lo que necesitas para seguir el curso y los recursos recomendados.
+
+requirements:
+  python:
+    version: "3.10+"
+    notes: "Se recomienda Python 3.10 o superior para ejecutar notebooks locales."
+  platforms:
+    - "Google Colab"
+    - "Entorno local (Windows, Mac, Linux)"
+  hardware:
+    notes: "GPU opcional solo para experimentos avanzados; no necesario para la mayoría de ejercicios."
+  tools:
+    - Jupyter / Colab
+    - Visual Studio Code o cualquier editor de Python
+    - Git / GitHub para clonar repositorios
+  accounts:
+    - OpenAI API Key (para usar GPT, modelos remotos)
+    - Acceso opcional a HuggingFace para modelos locales
+  optional:
+    - PyTorch / TensorFlow si se desea entrenar modelos grandes
+    - Streamlit para demos interactivas
+    - pyttsx3 / Pillow para ejercicios multimodales (voz e imagen)
+  notes:
+    - "Este entorno es solo orientativo, no instala software automáticamente."
+    - "Se recomienda seguir la guía de cada semana para instalar dependencias específicas según el tema."
